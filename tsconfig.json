@@ -6,7 +6,8 @@
         "outDir": "./dist",
         "esModuleInterop": true,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "types": ["jest"] // Add Jest types for global typing in tests
     },
     "include": ["src/**/*"]
 }
