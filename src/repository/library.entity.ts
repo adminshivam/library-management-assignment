@@ -8,6 +8,7 @@ class Library {
     loans: Map<number, Loan> = new Map();
 }
 
+// Singleton instance for creating a new Library through application lifecycle.
 const libraryInstance = new Library();
 
 export { libraryInstance, Library };
